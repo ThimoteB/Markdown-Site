@@ -6,8 +6,21 @@
     
     <title>Documentation Création Répo GitHub | Création d&#39;un répo github</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Le commencement
-Mon gars il faut faire ça et c&rsquo;est bon">
+    <meta name="description" content="Documentation : Créer un dépôt GitHub avec GitHub CLI et lier un projet
+Prérequis
+
+Avoir un compte GitHub.
+Installer GitHub CLI (gh).
+brew install gh
+
+Installer Git si ce n&rsquo;est pas déjà fait.
+brew install git
+
+
+1. Se connecter à GitHub via GitHub CLI
+Pour utiliser la CLI GitHub, il est nécessaire de se connecter à ton compte GitHub via le terminal.
+gh auth login
+Suis les instructions pour te connecter à ton compte GitHub.">
     <meta name="generator" content="Hugo 0.135.0">
     
     
@@ -38,7 +51,8 @@ Mon gars il faut faire ça et c&rsquo;est bon">
     <meta property="og:url" content="https://thimoteb.github.io/Markdown-Site/posts/mon-fichier/">
   <meta property="og:site_name" content="Création d&#39;un répo github">
   <meta property="og:title" content="Documentation Création Répo GitHub">
-  <meta property="og:description" content="Le commencement Mon gars il faut faire ça et c’est bon">
+  <meta property="og:description" content="Documentation : Créer un dépôt GitHub avec GitHub CLI et lier un projet Prérequis Avoir un compte GitHub. Installer GitHub CLI (gh). brew install gh Installer Git si ce n’est pas déjà fait. brew install git 1. Se connecter à GitHub via GitHub CLI Pour utiliser la CLI GitHub, il est nécessaire de se connecter à ton compte GitHub via le terminal.
+gh auth login Suis les instructions pour te connecter à ton compte GitHub.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -46,13 +60,15 @@ Mon gars il faut faire ça et c&rsquo;est bon">
     <meta property="article:modified_time" content="2024-10-06T12:54:32+02:00">
 
   <meta itemprop="name" content="Documentation Création Répo GitHub">
-  <meta itemprop="description" content="Le commencement Mon gars il faut faire ça et c’est bon">
+  <meta itemprop="description" content="Documentation : Créer un dépôt GitHub avec GitHub CLI et lier un projet Prérequis Avoir un compte GitHub. Installer GitHub CLI (gh). brew install gh Installer Git si ce n’est pas déjà fait. brew install git 1. Se connecter à GitHub via GitHub CLI Pour utiliser la CLI GitHub, il est nécessaire de se connecter à ton compte GitHub via le terminal.
+gh auth login Suis les instructions pour te connecter à ton compte GitHub.">
   <meta itemprop="datePublished" content="2024-10-06T12:54:32+02:00">
   <meta itemprop="dateModified" content="2024-10-06T12:54:32+02:00">
-  <meta itemprop="wordCount" content="11">
+  <meta itemprop="wordCount" content="392">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Documentation Création Répo GitHub">
-  <meta name="twitter:description" content="Le commencement Mon gars il faut faire ça et c’est bon">
+  <meta name="twitter:description" content="Documentation : Créer un dépôt GitHub avec GitHub CLI et lier un projet Prérequis Avoir un compte GitHub. Installer GitHub CLI (gh). brew install gh Installer Git si ce n’est pas déjà fait. brew install git 1. Se connecter à GitHub via GitHub CLI Pour utiliser la CLI GitHub, il est nécessaire de se connecter à ton compte GitHub via le terminal.
+gh auth login Suis les instructions pour te connecter à ton compte GitHub.">
 
 	
   </head>
@@ -125,8 +141,86 @@ Mon gars il faut faire ça et c&rsquo;est bon">
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="le-commencement">Le commencement</h1>
-<p>Mon gars il faut faire ça et c&rsquo;est bon</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="documentation--créer-un-dépôt-github-avec-github-cli-et-lier-un-projet">Documentation : Créer un dépôt GitHub avec GitHub CLI et lier un projet</h1>
+<h2 id="prérequis">Prérequis</h2>
+<ol>
+<li>Avoir un compte GitHub.</li>
+<li>Installer <a href="https://cli.github.com/">GitHub CLI</a> (<code>gh</code>).
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install gh
+</span></span></code></pre></div></li>
+<li>Installer Git si ce n&rsquo;est pas déjà fait.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install git
+</span></span></code></pre></div></li>
+</ol>
+<h2 id="1-se-connecter-à-github-via-github-cli">1. Se connecter à GitHub via GitHub CLI</h2>
+<p>Pour utiliser la CLI GitHub, il est nécessaire de se connecter à ton compte GitHub via le terminal.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gh auth login
+</span></span></code></pre></div><p>Suis les instructions pour te connecter à ton compte GitHub.</p>
+<h2 id="2-créer-un-dépôt-github-depuis-le-terminal">2. Créer un dépôt GitHub depuis le terminal</h2>
+<p>Utilise la commande suivante pour créer un dépôt sur GitHub :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gh repo create NOM_DU_REPO --public
+</span></span></code></pre></div><ul>
+<li>Remplace <code>NOM_DU_REPO</code> par le nom que tu souhaites donner à ton dépôt.</li>
+<li>L&rsquo;option <code>--public</code> crée un dépôt public, mais tu peux utiliser <code>--private</code> pour un dépôt privé.</li>
+</ul>
+<p>Tu seras invité à choisir si tu veux créer un dépôt local ou distant. Sélectionne &ldquo;Push an existing local repository&rdquo;.</p>
+<h2 id="3-créer-un-projet-local">3. Créer un projet local</h2>
+<p>Si tu n&rsquo;as pas encore de projet local, crée-en un en initialisant un nouveau répertoire avec Git.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir mon-projet
+</span></span><span style="display:flex;"><span>cd mon-projet
+</span></span><span style="display:flex;"><span>git init
+</span></span></code></pre></div><p>Cela initialise un nouveau dépôt Git local dans le répertoire <code>mon-projet</code>.</p>
+<h2 id="4-lier-le-projet-local-au-dépôt-github">4. Lier le projet local au dépôt GitHub</h2>
+<p>Maintenant que le dépôt GitHub est créé, tu dois le lier à ton dépôt local.</p>
+<h3 id="a-ajouter-le-dépôt-github-en-tant-que-remote">a. Ajouter le dépôt GitHub en tant que remote</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin https://github.com/ton-utilisateur/NOM_DU_REPO.git
+</span></span></code></pre></div><p>Remplace <code>ton-utilisateur</code> par ton nom d&rsquo;utilisateur GitHub et <code>NOM_DU_REPO</code> par le nom du dépôt que tu as créé.</p>
+<h3 id="b-ajouter-un-fichier-au-projet-local">b. Ajouter un fichier au projet local</h3>
+<p>Ajoute un fichier pour le test, par exemple un fichier <code>README.md</code> :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;# Mon projet&#34;</span> &gt; README.md
+</span></span></code></pre></div><h3 id="c-ajouter-valider-et-pousser-les-changements-vers-github">c. Ajouter, valider et pousser les changements vers GitHub</h3>
+<ol>
+<li>
+<p>Ajouter les fichiers dans Git :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span></code></pre></div></li>
+<li>
+<p>Valider les fichiers ajoutés :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Premier commit&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p>Pousser les changements vers le dépôt GitHub :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git push origin master
+</span></span></code></pre></div></li>
+</ol>
+<h2 id="5-vérifier-sur-github">5. Vérifier sur GitHub</h2>
+<p>Ton projet local est maintenant lié à ton dépôt GitHub. Tu peux vérifier en te rendant sur <a href="https://github.com">GitHub</a> et en consultant ton dépôt.</p>
+<hr>
+<h3 id="résumé-des-commandes">Résumé des commandes</h3>
+<ol>
+<li>
+<p>Se connecter à GitHub :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gh auth login
+</span></span></code></pre></div></li>
+<li>
+<p>Créer un dépôt GitHub :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gh repo create NOM_DU_REPO --public
+</span></span></code></pre></div></li>
+<li>
+<p>Initialiser un dépôt local :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+</span></span></code></pre></div></li>
+<li>
+<p>Lier le dépôt local au dépôt GitHub :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin https://github.com/ton-utilisateur/NOM_DU_REPO.git
+</span></span></code></pre></div></li>
+<li>
+<p>Ajouter, valider et pousser les changements :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Premier commit&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin master
+</span></span></code></pre></div></li>
+</ol>
 <ul class="pa0">
   
 </ul>
