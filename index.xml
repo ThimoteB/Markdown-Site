@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Création d&#39;un répo github</title>
     <link>https://thimoteb.github.io/Markdown-Site/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Création d&#39;un répo github</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Sun, 06 Oct 2024 12:54:32 +0200</lastBuildDate>
     <atom:link href="https://thimoteb.github.io/Markdown-Site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Documentation Création Répo GitHub</title>
+      <link>https://thimoteb.github.io/Markdown-Site/posts/mon-fichier/</link>
+      <pubDate>Sun, 06 Oct 2024 12:54:32 +0200</pubDate>
+      <guid>https://thimoteb.github.io/Markdown-Site/posts/mon-fichier/</guid>
+      <description>&lt;h1 id=&#34;le-commencement&#34;&gt;Le commencement&lt;/h1&gt;&#xA;&lt;p&gt;Mon gars il faut faire ça et c&amp;rsquo;est bon&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
