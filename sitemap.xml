@@ -2,16 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://thimoteb.github.io/Markdown-Site/</loc>
-    <lastmod>2024-10-06T12:54:32+02:00</lastmod>
-  </url><url>
     <loc>https://thimoteb.github.io/Markdown-Site/posts/mon-fichier/</loc>
-    <lastmod>2024-10-06T12:54:32+02:00</lastmod>
-  </url><url>
-    <loc>https://thimoteb.github.io/Markdown-Site/posts/</loc>
-    <lastmod>2024-10-06T12:54:32+02:00</lastmod>
   </url><url>
     <loc>https://thimoteb.github.io/Markdown-Site/categories/</loc>
+  </url><url>
+    <loc>https://thimoteb.github.io/Markdown-Site/</loc>
+  </url><url>
+    <loc>https://thimoteb.github.io/Markdown-Site/posts/</loc>
   </url><url>
     <loc>https://thimoteb.github.io/Markdown-Site/tags/</loc>
   </url>
